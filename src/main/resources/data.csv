@@ -1,11 +1,11 @@
-id,subject,announcementcontent,createddate,docname,docsize,doctype
-267,test,test,1678559400000,,,
-266,dasf,asdf,1651728999155,,,
-265,ext,ext,1651637822759,,,
-264,"asd bulk ext","asd bulk ext",1650278145399,,,
-263,exte,exte,1649247387139,,,
-262,"extended till 20 dec","extended till 20 dec",1639460252127,,,
-261,"extended till 20 dec","extended till 20 dec",1639460218370,,,
-260,"extended till 20 dec","extended till 20 dec",1639460182131,,,
-259,"extended till 20 dec","extended till 20 dec",1639460142734,,,
-258,"Admin Corrigendum Critical Date Extension","Admin Corrigendum Critical Date Extension",1635326986035,,,
+workitemid,tendertitle,workitemrefno,productcategory,organization,tendervalue,tenderrefno,contractvalue,emdfeefixedamt,tenderstatus,publisheddate,closingdate,openingdate
+21689,Chk_flow_44,2022_NOTTT_7417_1,"Audio-Visual Equipment","New Organisation for TTT",200000.0,Chk_flow_44,,100.0,"To be Opened","10-Oct-2022, 12:39 pm","10-Oct-2022, 04:00 pm","10-Oct-2022, 04:00 pm"
+21688,Chk_flow_43,2022_NOTTT_7416_1,"Air Compressor","New Organisation for TTT",200000.0,Chk_flow_43,,100.0,"To be Opened","10-Oct-2022, 12:27 pm","10-Oct-2022, 03:30 pm","10-Oct-2022, 03:30 pm"
+21686,"07_Oct_22_TCA_Version16_03",2022_MCL_7401_1,"Access Control System",MCL_Org,500000.0,07_Oct_22_TCA_Version16,,25000.0,"To be Opened","07-Oct-2022, 12:35 pm","07-Oct-2022, 06:00 pm","07-Oct-2022, 06:00 pm"
+21685,"07_Oct_22_TCA_Version16_02",2022_MCL_7400_1,"Access Control System",MCL_Org,500000.0,07_Oct_22_TCA_Version16,,100000.0,"To be Opened","07-Oct-2022, 11:42 am","07-Oct-2022, 06:00 pm","07-Oct-2022, 06:00 pm"
+21684,"07_Oct_22_TCA_Version16_01",2022_MCL_7399_1,"Access Control System",MCL_Org,500000.0,07_Oct_22_TCA_Version16,5633346.0,25000.0,AOC,"07-Oct-2022, 11:29 am","07-Oct-2022, 11:35 am","07-Oct-2022, 11:35 am"
+21683,TestFlow_Works,2022_TWAD_7398_1,Coal,TWAD,68570.0,TestFlow_Works,6490.0,120.0,AOC,"07-Oct-2022, 11:23 am","07-Oct-2022, 12:45 pm","07-Oct-2022, 12:50 pm"
+21682,"6_Oct_22_EMD_percentage_Check",2022_MCL_7397_2,"Access Control System",MCL_Org,500000.0,"6_Oct_22_EMD_percentage_Check",,5000.0,"Financial Bid Opened","06-Oct-2022, 05:24 pm","06-Oct-2022, 05:30 pm","06-Oct-2022, 05:30 pm"
+21681,"6_Oct_22_EMD_percentage_Check",2022_MCL_7397_1,"Access Control System",MCL_Org,500000.0,"6_Oct_22_EMD_percentage_Check",,5000.0,"Technical Bid Opened","06-Oct-2022, 03:05 pm","06-Oct-2022, 03:15 pm","06-Oct-2022, 03:15 pm"
+21676,"Work/Item Title",2022_TWAD_7395_1,Construction,TWAD,4800.0,Test_03_10,,71.0,"Technical Bid Opened","03-Oct-2022, 05:37 pm","03-Oct-2022, 06:00 pm","03-Oct-2022, 06:05 pm"
+21675,"Adopt TCA new flow YES AFO- ML- itemwise - Eli-No",2022_MCL_7390_1,"Access Control System",MCL_Org,500000.0,"Adopt TCA new flow YES AFO- ML- itemwise  - Eli-No",,0.0,"To be Opened","03-Oct-2022, 03:38 pm","03-Oct-2022, 06:00 pm","03-Oct-2022, 06:00 pm"

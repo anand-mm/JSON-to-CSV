@@ -6,13 +6,16 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.relational.core.sql.StringLiteral;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 
@@ -44,11 +47,18 @@ public class mainController {
 
         CsvMapper csvMapper = new CsvMapper();
 		// csvMapper.configure(Feature.IGNORE_UNKNOWN, true);
-		csvMapper.writerFor(JsonNode.class)
-				.with(csvSchema)
-				.writeValue(new File("src/main/resources/data.csv"), jsonNode);
+		// csvMapper.writerFor(JsonNode.class);
+        // csvMapper.reader(JsonNode.class)
+		// 		.with(csvSchema);
+				// .writeValue(new File("src/main/resources/data.csv"), jsonNode)
 
-        System.out.println("Converted Successfully....");
+        ObjectReader objectReader = mapper.readerFor(JsonNode.class).with(csvSchema);
+
+        MappingIterator <Map<String,String>> it = csvMapper.reader().readValue(jsonNode);
+
+        List<Map<String,String>> datavalue = it.readAll();
+        
+        System.out.println(datavalue);
 
         return null;
 
